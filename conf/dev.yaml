@@ -1,0 +1,17 @@
+master:
+  host: "localhost"
+  port: 9110
+
+mq:
+  endpoint: "tcp://127.0.0.1:9111"
+
+storage:
+  type: "s3"
+  access_key: "YOUR_ACCESS_KEY"
+  secret_key: "YOUR_SECRET_KEY"
+  bucket: "YOUR_BUCKET_NAME"
+  region: "YOUR_REGION"
+
+log:
+  level: "INFO"
+  output: "console"
